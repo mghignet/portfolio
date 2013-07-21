@@ -1,0 +1,21 @@
+#header
+	.navbar.navbar-fixed-top.navbar-inverse.visible-desktop.screen#navigation-bar
+		%a.brand{:href => ''}
+			%span.icon.logo-white-small
+			%p.name Maxime Ghignet
+			%p.description =$welcome_description
+		%ul.nav.pull-right
+			%li
+				%a{:href => '#header'} =$welcome_title
+			%li
+				%a{:href => '#skills'} =$skills_title
+			%li
+				%a{:href => '#education'} =$education_title
+			%li
+				%a{:href => '#experience'} =$experience_title
+			%li
+				%a{:href => '#projects'} =$projects_title
+		.language.pull-right
+			%a.icon.icon-france{:href => "?lang=fr"}
+			%a.icon.icon-usa{:href => "?lang=en"}
+.clearfix

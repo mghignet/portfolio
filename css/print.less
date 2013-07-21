@@ -1,0 +1,80 @@
+.print {
+  display: inline !important;
+}
+
+.screen {
+  display: none !important;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.2em
+}
+
+h2 {
+  margin: 20pt 0 0 0;
+  padding: 0;
+  line-height: 0.5em;
+  page-break-before: always;
+}
+&#skills h2 {
+  page-break-before: auto;
+}
+
+h3 {
+  margin: 20pt 0 0 0;
+  padding: 0 0 10pt 0;
+}
+
+ul {
+  list-style-image: url('../images/check-dark.png');
+  li {
+    line-height: 1.2em
+  }
+}
+
+.logo img {
+  width: auto;
+  height: auto;
+  margin-bottom: 10pt;
+}
+
+.screenshot img {
+  width: auto;
+  height: auto;
+}
+
+.section-container {
+  border: none !important;
+}
+
+#header #navigation-bar {
+  display: none;
+}
+
+#welcome {
+  .section-container {
+    height: auto;
+    padding: 10px;
+    a.mobile-logo .logo-white-small {
+      margin-top: 0;
+    }
+  }
+  .content, .language {
+    display: none;
+  }
+}
+
+#skills .span4, #education .span4 {
+  float: left;
+  width: 50%;
+  padding: 5pt;
+}
+
+#experience {
+  clear: both;
+}
+
+#footer .section-container {
+  padding: 10pt 20pt 0 20pt;
+}
