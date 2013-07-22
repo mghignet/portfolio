@@ -39,7 +39,7 @@
 
   //Education
   $education_title = "Formation";
-  $education_engineer_diploma = "Diplôme dingénieur, spécialité Génie informatique et industriel";
+  $education_engineer_diploma = "Diplôme d'ingénieur, spécialité Génie informatique et industriel";
   $education_engineer_diploma_from = "De l'Ecole Centrale de Lille / IG2I";
   $education_bac = "Baccalauréat Scientifique, mention Très Bien";
   $education_bac_description = "Option SVT, spécialité Mathématiques";
