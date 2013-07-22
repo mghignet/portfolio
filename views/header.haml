@@ -18,8 +18,8 @@
 			%li
 				%a{:href => '#projects'} =$projects_title
 		.language.pull-right
-			%a.icon.icon-france{:href => "?lang=fr"}
-			%a.icon.icon-usa{:href => "?lang=en"}
+			%a.icon.icon-france{:href => "#{$config['base_url']}fr/"}
+			%a.icon.icon-usa{:href => "#{$config['base_url']}en/"}
 		.printable.pull-right
 			%a{:href => "javascript:if(window.print)window.print()", :title => "#{$general_printable_version}"}
 				.icon.icon-print

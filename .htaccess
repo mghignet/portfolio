@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+
+ErrorDocument 404 /
+
+RewriteEngine on
+RewriteRule /(index)$ $1.php [L,QSA]
+RewriteRule ^([a-z]{2}(-[A-Z]{2})?)/(.*) $3?lang=$1 [L,QSA]
+

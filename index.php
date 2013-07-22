@@ -1,4 +1,8 @@
 <?php
+	$config['base_url'] = '/mgv3/';
+
+
+
 	session_start();
 	header('Cache-control: private'); // IE 6 FIX
 
