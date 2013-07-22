@@ -1,5 +1,5 @@
 <?php
-	$config['base_url'] = '/mgv3/';
+	$config['base_url'] = '/';
 
 	session_start();
 	header('Cache-control: private'); // IE 6 FIX
@@ -28,9 +28,9 @@
 <html>
 	<?php
 	  $head = $haml->parse('views/head.haml');
-	  echo $head;
+	  eval("?>".$head);
 	?>
-	<script src="javascript/main.js" type="text/javascript"></script>
+	<script src="<?php echo $config['base_url']; ?>javascript/main.js" type="text/javascript"></script>
 
 	<body data-spy="scroll" data-target=".navbar">
 		<div id="website">
