@@ -15,15 +15,15 @@ h2 {
   margin: 20pt 0 0 0;
   padding: 0;
   line-height: 0.5em;
-  page-break-before: always;
 }
-&#skills h2 {
-  page-break-before: auto;
+&#education h2 {
+  page-break-before: always;
 }
 
 h3 {
-  margin: 20pt 0 0 0;
-  padding: 0 0 10pt 0;
+  margin: 10pt 0 5pt 0;
+  padding: 0;
+  border-color: black;
 }
 
 ul {
@@ -44,10 +44,6 @@ ul {
   height: auto;
 }
 
-.section-container {
-  border: none !important;
-}
-
 #header #navigation-bar {
   display: none;
 }
@@ -65,16 +61,32 @@ ul {
   }
 }
 
-#skills .span4, #education .span4 {
-  float: left;
+.span4.content-span, .span6.content-span {
+  display: inline-block;
+  vertical-align: top;
   width: 50%;
   padding: 5pt;
+  margin: 0 !important;
 }
 
 #experience {
   clear: both;
 }
 
+.link-to {
+  display: none;
+}
+
 #footer .section-container {
   padding: 10pt 20pt 0 20pt;
+}
+
+
+//Comment this to display logos
+.logo, .screenshot {
+  display: none !important;
+}
+
+.section-container {
+  border: none !important;
 }

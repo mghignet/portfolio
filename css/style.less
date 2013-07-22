@@ -166,6 +166,9 @@ ul {
       li {
         a {
           color: #CCC;
+          &:hover {
+            color: #FFF;
+          }
         }
         &.active {
           a {
@@ -178,6 +181,20 @@ ul {
       .icon {
         display: block;
         margin: 9px 20px 0 0;
+      }
+    }
+    .printable {
+      margin: 9px 25px 0 0;
+      a {
+        text-decoration: none;
+        color: #CCC;
+        font-size: 0.8em;
+        &:hover {
+          color: #FFF;
+        }
+        .icon {
+          margin: 0 5px 0 0;
+        }
       }
     }
   }

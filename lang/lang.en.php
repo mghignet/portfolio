@@ -1,4 +1,6 @@
 <?php
+  //General
+  $general_printable_version = "Printable version";
 
   //Welcome
   $welcome_title = "Home";
@@ -95,6 +97,7 @@
   $projects_link_to_thredup_android = "Link to thredUP Android app";
 
   $projects_lm_android = "Leroy Merlin France Android app";
+  $projects_lm_android_tdd = "Test-driven Development";
   $projects_lm_android_shop = "Shop list";
   $projects_lm_android_design = "New design";
   $projects_lm_android_data = "New way to pull data (XML and JSON REST web services)";

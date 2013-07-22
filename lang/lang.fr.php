@@ -1,4 +1,6 @@
 <?php
+  //General
+  $general_printable_version = "Version imprimable";
 
   //Welcome
   $welcome_title = "Accueil";

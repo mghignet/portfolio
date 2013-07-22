@@ -6,6 +6,8 @@
 			%p.description =$welcome_description
 		%ul.nav.pull-right
 			%li
+
+			%li
 				%a{:href => '#header'} =$welcome_title
 			%li
 				%a{:href => '#skills'} =$skills_title
@@ -18,4 +20,8 @@
 		.language.pull-right
 			%a.icon.icon-france{:href => "?lang=fr"}
 			%a.icon.icon-usa{:href => "?lang=en"}
+		.printable.pull-right
+			%a{:href => "javascript:if(window.print)window.print()", :title => "#{$general_printable_version}"}
+				.icon.icon-print
+				=$general_printable_version
 .clearfix
