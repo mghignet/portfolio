@@ -7,11 +7,12 @@
   $welcome_description = "Software Engineer";
   $welcome_slogan = "Hello World.";
   $welcome_slide1 = "I'm a mobile & web software engineer.";
-  $welcome_slide2 = "\"If you think hiring a professional is expensive, wait till you hire an amateur.\"";
-  $welcome_slide3 = "300ms is usually the right duration for animations #mobile #android #io13";
-  $welcome_slide4 = "Make the user not even notice the animations #mobile #android #io13";
-  $welcome_slide5 = "Bunny approves this website."; //Bunny drawing is hardcoded
-  $welcome_slide6 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
+  $welcome_slide2 = "This portfolio was made with love on Manjaro using Sublime Text.";
+  $welcome_slide3 = "\"If you think hiring a professional is expensive, wait till you hire an amateur.\"";
+  $welcome_slide4 = "300ms is usually the right duration for animations #mobile #android";
+  $welcome_slide5 = "Make the user not even notice the animations #mobile";
+  $welcome_slide6 = "Bunny approves this website."; //Bunny drawing is hardcoded
+  $welcome_slide7 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
   $welcome_scrolldown_button = "Scroll Down";
   $welcome_drivers_license = "Driver's license";
 
@@ -29,7 +30,6 @@
   $skills_databases = "Databases: ";
   $skills_webservices = "REST and SOAP Web Services";
   $skills_cryptography = "Cryptography";
-  $skills_merise = "Entity/Relationship";
   $skills_agile_methods = "Agile methods ";
   $skills_data_driven_management = "Data-driven management";
   $skills_tools = "Tools: ";
@@ -46,6 +46,12 @@
 
   //Work Experience
   $experience_title = "Work Experience";
+
+  $experience_adeo2_title = "Web engineer";
+  $experience_adeo2_period = "Since November 2013";
+  $experience_adeo2_description1 = "Development of a turnkey website for Leroy Merlin Ukraine, Greece and Cyprus using REST web services";
+  $experience_adeo2_description1_1 = "Implementation of technical solutions and development of the website using Spring MVC";
+  $experience_adeo2_description1_2 = "Training of local developpers (in English)";
 
   $experience_thredup_title = "Software Engineer Intern";
   $experience_thredup_period = "February to August 2013 (6 months)";

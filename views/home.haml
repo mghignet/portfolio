@@ -29,15 +29,17 @@
 						%p.item
 							=$welcome_slide4
 						%p.item
+							=$welcome_slide5
+						%p.item
 							(\ /)
 							%br
 							(O.o)
 							%br
 							(> <)
 							%br
-							=$welcome_slide5
-						%p.item
 							=$welcome_slide6
+						%p.item
+							=$welcome_slide7
 				#next-section
 					%a.btn.btn-large.transparent{:href => '#skills'} =$welcome_scrolldown_button
 			.span3.personal-info
@@ -63,16 +65,16 @@
 				%h3 =$skills_title_web_mobile
 				%ul
 					%li.strong Android, iOS
-					%li.strong Ruby on Rails, Rspec, Cucumber
+					%li.strong Java: Spring MVC, Thymeleaf
 					%li.strong HTML5, HAML, SLIM
 					%li.strong CSS3, Bootstrap, Gumby, Sass, Less
 					%li.strong Responsive Design
-					%li.strong Javascript, AJAX, BackboneJS, jQuery, CoffeeScript
+					%li.strong Javascript, AJAX, BackboneJS, CoffeeScript, NodeJS, Grunt, Bower
 					%li.strong
 						=$skills_payment_solutions
 						Braintree, PayPal, Authorize.net
+					%li Ruby on Rails, Rspec, Cucumber
 					%li PHP, CodeIgniter
-					%li Java: JSP, Struts, Spring MVC
 			.span4.content-span
 				%h3 =$skills_title_development
 				%ul
@@ -93,10 +95,12 @@
 				%ul
 					%li.strong =$skills_webservices
 					%li.strong XML, JSON
-					%li.strong UNIX
+					%li.strong UNIX, scripting shell
+					%li.strong Build/tasks: Maven, Gradle, Grunt, Bower
+					%li.strong CI: Jenkins
 					%li =$skills_cryptography
 					%li Photoshop, The Gimp
-					%li ="MVC, UML, $skills_merise, SADT"
+					%li ="MVC, UML, SADT"
 		.row-fluid
 			.span4.offset2.content-span
 				%h3 =$skills_title_project_management
@@ -108,7 +112,7 @@
 					%li A/B Testing
 					%li
 						=$skills_tools
-						Asana, Trello
+						Asana, Trello, Jira, Scrumdo
 			.span4.content-span
 				%h3 =$skills_title_languages
 				%ul
@@ -145,6 +149,28 @@
 		.row-fluid
 			.span6.content-span
 				%h3
+					=$experience_adeo2_title
+				.row-fluid
+					.span3.logo
+						%img.screen{:src => 'images/logos/logo-adeo-white.png', :alt => 'Groupe Adeo Logo'}
+						%img.print{:src => 'images/logos/colored/logo-adeo.png', :alt => 'Groupe Adeo Logo'}
+						%br
+						%img.screen{:src => 'images/logos/logo-leroy-merlin-white.png', :alt => 'Leroy Merlin Logo'}
+						%img.print{:src => 'images/logos/colored/logo-leroy-merlin.png', :alt => 'Leroy Merlin Logo'}
+						%br
+						%img.screen{:src => 'images/logos/logo-ineat-white.png', :alt => 'Ineat-Conseil Logo'}
+						%img.print{:src => 'images/logos/colored/logo-ineat.png', :alt => 'Ineat-Conseil Logo'}
+					.span9
+						.period
+							=$experience_adeo2_period
+						.at
+							@Groupe Adeo (Leroy Merlin) via Ineat-Conseil
+						=$experience_adeo2_description1
+						%ul
+							%li =$experience_adeo2_description1_1
+							%li =$experience_adeo2_description1_2
+			.span6.content-span
+				%h3
 					=$experience_thredup_title
 					%span.icon.icon-usa
 				.row-fluid
@@ -159,6 +185,7 @@
 						=$experience_thredup_description1
 						%br
 						=$experience_thredup_description2
+		.row-fluid
 			.span6.content-span
 				%h3 =$experience_autoentrepreneur_title
 				.row-fluid
@@ -169,7 +196,6 @@
 						.period
 							=$experience_autoentrepreneur_period
 						=$experience_autoentrepreneur_description1
-		.row-fluid
 			.span6.content-span
 				%h3 =$experience_adeo_title
 				.row-fluid
@@ -190,6 +216,7 @@
 							%li =$experience_adeo_description1_1
 							%li =$experience_adeo_description1_2
 							%li =$experience_adeo_description1_3
+		.row-fluid
 			.span6.content-span
 				%h3
 					=$experience_thinkglobal_title
@@ -204,8 +231,7 @@
 						.at
 							@ThinkGlobal Inc, Massachusetts, USA
 						=$experience_thinkglobal_description1
-		.row-fluid
-			.span6.offset3.content-span
+			.span6.content-span
 				%h3 =$experience_axians_title
 				.row-fluid
 					.span3.logo

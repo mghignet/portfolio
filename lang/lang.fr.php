@@ -7,11 +7,12 @@
   $welcome_description = "Ingénieur développement";
   $welcome_slogan = "Hello World.";
   $welcome_slide1 = "Je suis ingénieur développement web & mobile.";
-  $welcome_slide2 = "\"Si vous pensez qu’embaucher un professionnel coûte cher, attendez d’embaucher un amateur.\"";
-  $welcome_slide3 = "300ms is usually the right duration for animations #mobile #android #io13";
-  $welcome_slide4 = "Make the user not even notice the animations #mobile #android #io13";
-  $welcome_slide5 = "Lapin approuve cette page."; //Bunny drawing is hardcoded
-  $welcome_slide6 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
+  $welcome_slide2 = "Ce portfolio est fait avec amour dans Sublime Text sous Manjaro.";
+  $welcome_slide3 = "\"Si vous pensez qu’embaucher un professionnel coûte cher, attendez d’embaucher un amateur.\"";
+  $welcome_slide4 = "300ms is usually the right duration for animations #mobile #android";
+  $welcome_slide5 = "Make the user not even notice the animations #mobile";
+  $welcome_slide6 = "Lapin approuve cette page."; //Bunny drawing is hardcoded
+  $welcome_slide7 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
   $welcome_scrolldown_button = "Scroll Down";
   $welcome_drivers_license = "Permis B";
 
@@ -29,7 +30,6 @@
   $skills_databases = "Bases de données : ";
   $skills_webservices = "Web Services REST, SOAP";
   $skills_cryptography = "Cryptographie";
-  $skills_merise = "Merise";
   $skills_agile_methods = "Méthodes agiles ";
   $skills_data_driven_management = "Data-driven management";
   $skills_tools = "Outils: ";
@@ -46,6 +46,12 @@
 
   //Work Experience
   $experience_title = "Expérience";
+
+  $experience_adeo2_title = "Ingénieur développement web";
+  $experience_adeo2_period = "Novembre 2013 - Aujourd'hui";
+  $experience_adeo2_description1 = "Développement d'un site web clé en main pour Leroy Merlin Ukraine, Grèce et Chypre utilisant des APIs REST";
+  $experience_adeo2_description1_1 = "Mise en place de solutions techniques et développement du site en Spring MVC";
+  $experience_adeo2_description1_2 = "Formation des développeurs locaux (en anglais)";
 
   $experience_thredup_title = "Ingénieur web & mobile (stage)";
   $experience_thredup_period = "Février - Août 2013 (6 mois)";
