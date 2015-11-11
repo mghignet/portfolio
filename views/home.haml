@@ -46,8 +46,8 @@
 				.icon.icon-twitter
 				%a{:href => 'https://twitter.com/mghignet', :target => '_blank'} @mghignet
 				%br
-				.icon.icon-googleplus
-				%a{:href => 'https://plus.google.com/u/0/118185004937851951855/about', :target => '_blank'} +Maxime
+				.icon.icon-github
+				%a{:href => 'https://github.com/mghignet', :target => '_blank'} mghignet
 				%br
 				.icon.icon-linkedin
 				%a{:href => 'http://fr.linkedin.com/pub/maxime-ghignet/27/175/224', :target => '_blank'} LinkedIn
@@ -64,28 +64,30 @@
 			.span4.content-span
 				%h3 =$skills_title_web_mobile
 				%ul
+					%li.strong Javascript (+Ecmascript 6), AngularJS, ExpressJS, Sails.js, Grunt, Gulp, Bower
+					%li.strong Java: Spring MVC, Thymeleaf, Jersey, Maven
+					%li.strong HTML5, HAML, SLIM, Jade
+					%li.strong CSS3, Sass (+frameworks), Less, Responsive Design
 					%li.strong Android, iOS
-					%li.strong Java: Spring MVC, Thymeleaf
-					%li.strong HTML5, HAML, SLIM
-					%li.strong CSS3, Bootstrap, Gumby, Sass, Less
-					%li.strong Responsive Design
-					%li.strong Javascript, AJAX, BackboneJS, CoffeeScript, NodeJS, Grunt, Bower
-					%li.strong
+					%li
 						=$skills_payment_solutions
 						Braintree, PayPal, Authorize.net
 					%li Ruby on Rails, Rspec, Cucumber
-					%li PHP, CodeIgniter
+					%li PHP, CodeIgniter, Symfony2
 			.span4.content-span
 				%h3 =$skills_title_development
 				%ul
-					%li.strong Java (+Android SDK), Spring, JPA, JUnit
-					%li.strong Objective-C (+iOS SDK)
+					%li.strong Javascript (+Ecmascript 6), NodeJS, Mocha/Chai, Karma/Jasmine, ... 
+					%li.strong Java 8, Spring, JPA, JUnit, Maven
 					%li.strong 
 						=$skills_unit_testing
 						TDD
 					%li.strong
 						=$skills_version_control
-						Git, Subversion
+						Git (
+						=$skills_advanced_use
+						), Subversion
+					%li Objective-C (+iOS SDK)
 					%li C, Ada
 					%li VB.NET, VBA, C#.NET
 					%li =$skills_databases
@@ -94,7 +96,6 @@
 				%h3 =$skills_title_other_skills
 				%ul
 					%li.strong =$skills_webservices
-					%li.strong XML, JSON
 					%li.strong UNIX, scripting shell
 					%li.strong Build/tasks: Maven, Gradle, Grunt, Bower
 					%li.strong CI: Jenkins
@@ -146,6 +147,44 @@
 #experience
 	.section-container
 		%h2 =$experience_title
+		.row-fluid
+			.span6.content-span
+				%h3
+					=$experience_ciev_title
+				.row-fluid
+					.span3.logo
+						%img.screen{:src => 'images/logos/logo-ineat-white.png', :alt => 'Ineat-Conseil Logo'}
+						%img.print{:src => 'images/logos/colored/logo-ineat.png', :alt => 'Ineat-Conseil Logo'}
+					.span9
+						.period
+							=$experience_ciev_period
+						.at
+							@"La Compagnie des Vétérinaires" via Ineat-Conseil, Lille
+						=$experience_ciev_description1
+						%ul
+							%li =$experience_ciev_description1_1
+							%li =$experience_ciev_description1_2
+							%li =$experience_ciev_description1_3
+						%br
+						=$experience_ciev_description2
+			.span6.content-span
+				%h3
+					=$experience_dartagnan_title
+				.row-fluid
+					.span3.logo
+						%img.screen{:src => 'images/logos/logo-ineat-white.png', :alt => 'Ineat-Conseil Logo'}
+						%img.print{:src => 'images/logos/colored/logo-ineat.png', :alt => 'Ineat-Conseil Logo'}
+					.span9
+						.period
+							=$experience_dartagnan_period
+						.at
+							@Ineat-Conseil, Lille
+						=$experience_dartagnan_description1
+						%ul
+							%li =$experience_dartagnan_description1_1
+							%li =$experience_dartagnan_description1_2
+						%br
+						=$experience_dartagnan_description2
 		.row-fluid
 			.span6.content-span
 				%h3

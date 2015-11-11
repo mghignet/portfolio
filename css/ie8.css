@@ -1,0 +1,15 @@
+#navigation-bar {
+  background: #222;
+}
+#navigation-bar .active a {
+  background: #222;
+}
+#welcome {
+  padding-top: 200px;
+}
+.btn.transparent {
+  background: #222;
+}
+.btn.transparent:hover {
+  background: #444;
+}

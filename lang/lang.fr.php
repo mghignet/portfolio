@@ -26,9 +26,10 @@
 
   $skills_payment_solutions = "Solutions de paiement : ";
   $skills_unit_testing = "Tests unitaires, ";
+  $skills_advanced_use = "utilisation avancée";
   $skills_version_control = "Gestion de versions : ";
   $skills_databases = "Bases de données : ";
-  $skills_webservices = "Web Services REST, SOAP";
+  $skills_webservices = "Web Services REST";
   $skills_cryptography = "Cryptographie";
   $skills_agile_methods = "Méthodes agiles ";
   $skills_data_driven_management = "Data-driven management";
@@ -47,8 +48,23 @@
   //Work Experience
   $experience_title = "Expérience";
 
+  $experience_ciev_title = "Technical leader, ingénieur développement web";
+  $experience_ciev_period = "Août 2015 - Aujourd'hui";
+  $experience_ciev_description1 = "Développement de la nouvelle version de leur site. Tooling/frameworks:";
+  $experience_ciev_description1_1 = "Git, Jenkins, Slack, IntelliJ";
+  $experience_ciev_description1_2 = "ExpressJS, AngularJS, Nuxeo (+ développement spécifique)";
+  $experience_ciev_description1_3 = "JWT pour l'authentification";
+  $experience_ciev_description2 = "En charge d'encadrer et de contribuer au développement du site, de fournir un soutien technique, de mettre en place l'environnement, les processus de déploiement (intégration continue) et de revue de code, et les démos. Projet Agile.";
+
+  $experience_dartagnan_title = "Ingénieur développement web";
+  $experience_dartagnan_period = "Mars 2015 - Août 2015";
+  $experience_dartagnan_description1 = "Développement d'une solution d'e-mailing responsive en WYSIWYG (\"What you see is what you get\") afin d'envoyer des campagnes d'emails adaptés à tous les supports: smartphones, tablettes et PC fixes.";
+  $experience_dartagnan_description1_1 = "Tooling/Frameworks: NodeJS, AngularJS, Git, PHP Symfony, PostgreSQL";
+  $experience_dartagnan_description1_2 = "Projet Agile";
+  $experience_dartagnan_description2 = "Dans le même temps, tuteur d'un stagiaire travaillant sur un autre projet. Mon but était de le cadrer, de lui apporter des conseils techniques sur le développement de son projet.";
+
   $experience_adeo2_title = "Ingénieur développement web";
-  $experience_adeo2_period = "Novembre 2013 - Aujourd'hui";
+  $experience_adeo2_period = "Septembre 2013 - Mars 2015";
   $experience_adeo2_description1 = "Développement d'un site web clé en main pour Leroy Merlin Ukraine, Grèce et Chypre utilisant des APIs REST";
   $experience_adeo2_description1_1 = "Mise en place de solutions techniques et développement du site en Spring MVC";
   $experience_adeo2_description1_2 = "Formation des développeurs locaux (en anglais)";

@@ -26,9 +26,10 @@
 
   $skills_payment_solutions = "Payment solutions: ";
   $skills_unit_testing = "Unit testing, ";
+  $skills_advanced_use = "advanced use";
   $skills_version_control = "Version control: ";
   $skills_databases = "Databases: ";
-  $skills_webservices = "REST and SOAP Web Services";
+  $skills_webservices = "REST Web Services";
   $skills_cryptography = "Cryptography";
   $skills_agile_methods = "Agile methods ";
   $skills_data_driven_management = "Data-driven management";
@@ -47,8 +48,23 @@
   //Work Experience
   $experience_title = "Work Experience";
 
-  $experience_adeo2_title = "Web engineer";
-  $experience_adeo2_period = "Since November 2013";
+  $experience_ciev_title = "Technical leader and Web Engineer";
+  $experience_ciev_period = "August 2015 - Now";
+  $experience_ciev_description1 = "Development of their new website. Tooling/frameworks:";
+  $experience_ciev_description1_1 = "Git, Jenkins, Slack, IntelliJ";
+  $experience_ciev_description1_2 = "ExpressJS, AngularJS, Nuxeo (+ specific development around it)";
+  $experience_ciev_description1_3 = "JWT for authentication";
+  $experience_ciev_description2 = "In charge of leading the development of the website, providing technical advice, setting up the environment to facilitate the development, the shipping process (continuous integration), the code reviews and the demos. Working in Agile.";
+
+  $experience_dartagnan_title = "Web Engineer";
+  $experience_dartagnan_period = "March 2015 - August 2015";
+  $experience_dartagnan_description1 = "Development of a solution to create responsive emails in WYSIWYG (\"What you see is what you get\"). The aim was to be able to easily create emails that would render perfectly on all devices: smartphones, tablets, desktop computers.";
+  $experience_dartagnan_description1_1 = "Tooling/Frameworks: NodeJS, AngularJS, Git, PHP Symfony, PostgreSQL";
+  $experience_dartagnan_description1_2 = "Working in Agile";
+  $experience_dartagnan_description2 = "Also, tutor of an intern who worked on another project. I was in charge of providing him with technical advice and training.";
+
+  $experience_adeo2_title = "Web Engineer";
+  $experience_adeo2_period = "September 2013 - March 2015";
   $experience_adeo2_description1 = "Development of a turnkey website for Leroy Merlin Ukraine, Greece and Cyprus using REST web services";
   $experience_adeo2_description1_1 = "Implementation of technical solutions and development of the website using Spring MVC";
   $experience_adeo2_description1_2 = "Training of local developpers (in English)";
