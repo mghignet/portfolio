@@ -1,9 +1,0 @@
-#Options +FollowSymLinks #On ne déclare pas cette directive chez online.net (sinon erreur 500)
-
-ErrorDocument 404 /
-
-RewriteEngine on
-RewriteRule /(index)$ $1.php [L,QSA]
-RewriteRule ^([a-z]{2}(-[A-Z]{2})?)/(.*) $3?lang=$1 [L,QSA] #Generic rule, does not work properly for assets (reloading if language changes)
-
-AddType application/x-httpd-php5-2 .php #Support de PHP5 par online.net, ne marche pas en local

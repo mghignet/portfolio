@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+    nginx:
+        build: ./docker-images/nginx
+        image: mghignet/nginx
+        container_name: mghignet-nginx
+        ports:
+            - "80:80"
+        volumes:
+            - "./:/home/www"
+        links:
+            - phpfpm:portfolio-fpm
+
+    phpfpm:
+        build: ./docker-images/php-fpm
+        image: mghignet/php5-fpm
+        container_name: mghignet-php
+        volumes:
+            - "./:/home/www"
