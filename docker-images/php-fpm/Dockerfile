@@ -1,7 +1,7 @@
-FROM ubuntu
+FROM debian
 
-RUN sudo apt-get -y update && apt-get -y upgrade
-RUN sudo apt-get -y install php5-fpm
+RUN apt-get -y update && apt-get upgrade
+RUN apt-get -y install php5-fpm
 
 RUN echo "cgi.fix_pathinfo=0" > /etc/php5/fpm/conf.d/local.ini
 RUN echo "date.timezone = Europe/Paris" >> /etc/php5/fpm/conf.d/local.ini
