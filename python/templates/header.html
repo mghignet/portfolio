@@ -1,0 +1,39 @@
+<div id="header">
+    <div id="navigation-bar" class="navbar navbar-fixed-top navbar-inverse visible-desktop screen">
+        <a class="brand" href="">
+            <span class="icon logo-white-small"></span>
+            <p class="name">Maxime Ghignet</p>
+            <p class="description">{{ gettext(welcome_description) }}</p>
+        </a>
+        <ul class="nav pull-right">
+            <li></li>
+
+            <li>
+                <a href='#header'>{{ gettext(welcome_title) }}</a>
+            </li>
+			<li>
+				<a href='#skills'>{{ gettext(skills_title) }}</a>
+            </li>
+			<li>
+				<a href='#education'>{{ gettext(education_title) }}</a>
+            </li>
+			<li>
+				<a href='#experience'>{{ gettext(experience_title) }}</a>
+            </li>
+			<li>
+				<a href='#projects'>{{ gettext(projects_title) }}</a>
+            </li>
+        </ul>
+        <div class="language pull-right">
+            <a class="icon icon-france" href="/fr/"></a>
+            <a class="icon icon-usa" href="/en/"></a>
+        </div>
+        <div class="printable pull-right">
+            <a href="javascript:if(window.print)window.print()", title="{{ gettext(general_printable_version) }}">
+			    <div class="icon icon-print"></div>
+				{{ gettext(general_printable_version) }}
+            </a>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>

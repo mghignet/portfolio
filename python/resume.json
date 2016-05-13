@@ -1,0 +1,22 @@
+{
+    "skills": {
+        "titleFr": "Compétences",
+        "titleEn": "Skills",
+        "categories": [
+            {
+                "titleFr": "Web & Mobile",
+                "titleEn": "Web & Mobile",
+                "skills": [
+                    {
+                        "titleFr": "Javascript",
+                        "titleEn": "Javascript",
+                        "strong": true
+                    }
+                ]
+            }
+        ]
+    },
+    "experience": {},
+    "education": {}
+}
+
