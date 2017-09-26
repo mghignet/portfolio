@@ -1,6 +1,6 @@
-FROM debian
+FROM debian:8
 
-RUN apt-get -y update && apt-get upgrade
+RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install php5-fpm
 
 RUN echo "cgi.fix_pathinfo=0" > /etc/php5/fpm/conf.d/local.ini
