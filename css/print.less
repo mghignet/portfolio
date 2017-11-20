@@ -12,11 +12,12 @@ body {
 }
 
 h2 {
-  margin: 20pt 0 0 0;
+  margin: 20pt 0 20pt 0;
   padding: 0;
   line-height: 0.5em;
 }
-&#education h2 {
+
+#skills h2, #experience h2 {
   page-break-before: always;
 }
 
@@ -52,12 +53,35 @@ ul {
   .section-container {
     height: auto;
     padding: 10px;
-    a.mobile-logo .logo-white-small {
-      margin-top: 0;
+    a.mobile-logo {
+      img {
+        width: 49px;
+        height: 38px;
+        vertical-align: top;
+        margin: 0 10px 0 10px;
+      }
     }
   }
   .content, .language {
     display: none;
+  }
+}
+
+#about {
+  .profile-picture {
+    margin-top: 50pt;
+  }
+
+  .intro {
+    margin-top: 50pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+  }
+
+  .iwillbe {
+    margin-top: 50pt;
+    padding-left: 100pt;
+    padding-right: 100pt;
   }
 }
 
@@ -71,6 +95,14 @@ ul {
 
 #experience {
   clear: both;
+
+  .content-span {
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 30pt;
+  }
 }
 
 .link-to {

@@ -5,24 +5,31 @@
   //Welcome
   $welcome_title = "Home";
   $welcome_description = "Software Engineer";
-  $welcome_slogan = "Hello World.";
+  $punchline = "I'm a fullstack software engineer.";
   $welcome_slide1 = "I'm a mobile & web software engineer.";
-  $welcome_slide2 = "This portfolio was made with love on Manjaro using Sublime Text.";
+  $welcome_slide2 = "This portfolio was made with love on Manjaro using Vim (and sometimes WebStorm, but shhhhh)";
   $welcome_slide3 = "\"If you think hiring a professional is expensive, wait till you hire an amateur.\"";
-  $welcome_slide4 = "300ms is usually the right duration for animations #mobile #android";
-  $welcome_slide5 = "Make the user not even notice the animations #mobile";
-  $welcome_slide6 = "Bunny approves this website."; //Bunny drawing is hardcoded
-  $welcome_slide7 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
+  $welcome_slide4 = "Make the user not even notice the animations #mobile";
+  $welcome_slide5 = "Bunny approves this website."; //Bunny drawing is hardcoded
+  $welcome_slide6 = "git commit -m \"[Insert your commit message here. Be sure to make it descriptive.]\"";
   $welcome_scrolldown_button = "Scroll Down";
   $welcome_drivers_license = "Driver's license";
 
+  //About me
+  $about_title = "About me";
+  $about_intro = "I'm a passionate developer, sometimes a speaker. I love learning and sharing. I'm very active in the community and I even co-organize the";
+  $about_iwillbe_1 = "I will be the developer who can intervene for consulting about your developments and the organization of your development team";
+  $about_iwillbe_2 = "I will be the developer who can interact with your teams abroad, in English or in French";
+  $about_iwillbe_3 = "I will be the developer who can set up your continuous integration";
+  $about_iwillbe_4 = "I will be the developer who will assist your DevOps (I heard they were often busy...)";
+
   //Skills
   $skills_title = "Skills";
-  $skills_title_web_mobile = "Web & Mobile";
-  $skills_title_development = "Development";
-  $skills_title_other_skills = "Other Skills";
-  $skills_title_project_management = "Project Management";
+  $skills_title_front = "Front end";
+  $skills_title_back = "Back end";
+  $skills_title_devops = "DevOps";
   $skills_title_languages = "Languages";
+  $skills_title_other = "Other skills";
 
   $skills_payment_solutions = "Payment solutions: ";
   $skills_unit_testing = "Unit testing, ";
@@ -48,8 +55,17 @@
   //Work Experience
   $experience_title = "Work Experience";
 
+  $experience_adeo3_title = "Web engineer";
+  $experience_adeo3_period = "March 2016 - Now";
+  $experience_adeo3_description1 = "Development of a publishing solution to be able to match in-store customer experience on Groupe Adeo companies' websites.";
+  $experience_adeo3_description1_1 = "Git, Jenkins, Slack, IntelliJ";
+  $experience_adeo3_description1_2 = "ExpressJS, VueJS, AngularJS";
+  $experience_adeo3_description1_3 = "Elastic, Couchbase";
+  $experience_adeo3_description1_4 = "Docker, Rancher";
+  $experience_adeo3_description2 = "Part of the team that developed the main solution (an API) and the admin panels. Upgraded the continuous integration system to include the last features of Jenkins (pipelines). Helped administrating the environments.";
+
   $experience_ciev_title = "Technical leader and Web Engineer";
-  $experience_ciev_period = "August 2015 - Now";
+  $experience_ciev_period = "August 2015 - March 2016";
   $experience_ciev_description1 = "Development of their new website. Tooling/frameworks:";
   $experience_ciev_description1_1 = "Git, Jenkins, Slack, IntelliJ";
   $experience_ciev_description1_2 = "ExpressJS, AngularJS, Nuxeo (+ specific development around it)";
@@ -93,62 +109,7 @@
   $experience_axians_period = "April 2010 to June 2010 (3 months)";
   $experience_axians_at = "@Axians, Fresnes-lès-Montauban, Subsidiary of Vinci Group";
   $experience_axians_description1 = "Development of a hospital waste management software for Inova (a waste incinerator), using Windev IDE and OPC Technology.";
-  $experience_axians_description2 = "UI Reskin of Nagios network tool to match Axians guidelines.";
-
-  //Projects
-  $projects_title = "Projects";
-  $projects_thredup_checkout = "thredUP checkout page";
-  $projects_thredup_checkout_tdd = "Test-driven Development";
-  $projects_thredup_checkout_ajax = "AJAX for address validation, promo codes, payment";
-  $projects_thredup_checkout_payment = "Payment using Braintree's and PayPal's APIs";
-  $projects_thredup_checkout_responsive_design = "Responsive design with Gumby Framework";
-  $projects_link_to_thredup = "Link to thredUP.com";
-
-  $projects_thredup_ios = "thredUP e-commerce iOS app";
-  $projects_thredup_ios_shop = "New shop view (from GMGridView to UICollectionView)";
-  $projects_thredup_ios_filters = "Reskinned filters";
-  $projects_thredup_ios_ux = "User eXperience enhancements";
-  $projects_link_to_thredup_ios = "Link to thredUP iOS app";
-
-  $projects_thredup_android = "thredUP e-commerce iOS app";
-  $projects_thredup_android_tdd = "Test-driven development";
-  $projects_thredup_android_filters = "Improved filters";
-  $projects_thredup_android_reskin = "Reskin of the whole application";
-  $projects_thredup_android_refactor = "Refactoring of the app";
-  $projects_thredup_android_gcm = "Google Cloud Messaging (GCM) integration (+ server side)";
-  $projects_link_to_thredup_android = "Link to thredUP Android app";
-
-  $projects_lm_android = "Leroy Merlin France Android app";
-  $projects_lm_android_tdd = "Test-driven Development";
-  $projects_lm_android_shop = "Shop list";
-  $projects_lm_android_design = "New design";
-  $projects_lm_android_data = "New way to pull data (XML and JSON REST web services)";
-  $projects_link_to_lm_android = "Link to Leroy Merlin France Android app";
-
-  $projects_commercial_news = "Commercial News USA";
-  $projects_commercial_news_payment = "Payment forms with Authorize.net";
-  $projects_commercial_news_pdf = "PDF summaries sent by e-mail";
-  $projects_commercial_news_design = "New design";
-  $projects_commercial_upload = "AJAX Image upload";
-  $projects_link_to_commercial_news = " Link to Commercial News USA";
-
-  $projects_inova_dasri = "Inova Hospital Waste Management Software";
-  $projects_inova_dasri_bin_weighing = "Bin weighing";
-  $projects_inova_dasri_summary_printing = "Summary printing";
-  $projects_inova_dasri_barcode = "Barcode printing and reading";
-  $projects_inova_dasri_plc = "Communication with PLCs for incineration (OPC protocol)";
-  $projects_inova_dasri_speed = "Optimized for speed of handling";
-  $projects_inova_dasri_backup = "Periodical data backup";
-  $projects_inova_dasri_technologies = "Windev 15, OPC protocol, automation";
-
-  $projects_inova_workshift_sheet = "Inova workshift sheet";
-  $projects_inova_workshift_sheet_data_input = "Data input with tolerance validation";
-  $projects_inova_workshift_sheet_data_saving = "Data saving into an Access database";
-  $projects_inova_workshift_sheet_data_pulling = "Data pulling from an SQL Server database";
-  $projects_inova_workshift_sheet_report_generation = "Report and chart generation inside a VB application using SAP Crystal Reports";
-
-  $projects_inova_ts3_viewer = "TeamSpeak 3 Viewer";
-  $projects_inova_ts3_viewer_html_parsing = "HTML parsing from ts3viewer.com (no web services available)";
-  $projects_inova_ts3_viewer_nested_lists = "Dislays channels, subchannels and users in nested lists";
+  $experience_axians_description2 = "Various interventions in companies: networks, systems, programming.";
+  $experience_axians_description3 = "UI Reskin of Nagios network tool to match Axians guidelines.";
 
 ?>

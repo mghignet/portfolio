@@ -92,7 +92,7 @@ h2 {
   line-height: 0.775em;
   font-weight: 100;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
@@ -273,10 +273,6 @@ ul li.strong {
 #welcome .section-container a.mobile-logo .name-description .name {
   font-size: 1.12em;
 }
-#welcome .section-container a.mobile-logo img {
-  width: 49px;
-  height: 38px;
-}
 #welcome .section-container a.mobile-logo .logo-white-small {
   margin-right: 15px;
   vertical-align: top;
@@ -302,6 +298,14 @@ ul li.strong {
 #welcome .section-container .personal-info .icon {
   margin-right: 10px;
 }
+#welcome .section-container .punchline {
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 #welcome .section-container #tips-carousel p {
   font-family: 'Lato', 'Open Sans', sans-serif;
   text-align: center;
@@ -315,6 +319,14 @@ ul li.strong {
 #welcome .section-container #next-section a {
   box-shadow: none;
   color: #FFF;
+}
+#about .profile-picture {
+  text-align: right;
+}
+#about .profile-picture img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 #skills .section-container {
   background: #3985B8;
@@ -341,9 +353,6 @@ ul li.strong {
 #experience .section-container .at {
   font-weight: 400;
   color: #214600;
-}
-#projects .section-container .technologies {
-  font-style: italic;
 }
 #footer .section-container {
   background: #222;
@@ -400,6 +409,9 @@ ul li.strong {
   .screenshot {
     margin: 20px 0;
   }
+  #welcome .section-container {
+    height: 800px;
+  }
   #welcome .mobile-title {
     margin-top: 0px;
   }
@@ -408,6 +420,13 @@ ul li.strong {
   }
   #welcome .personal-info {
     text-align: center;
+  }
+  #about .intro {
+    margin-bottom: 20px;
+  }
+  #about .profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
   }
   #footer .section-container .contact {
     text-align: left;
@@ -430,11 +449,12 @@ ul li.strong {
     line-height: 1.2em;
   }
   h2 {
-    margin: 20pt 0 0 0;
+    margin: 20pt 0 20pt 0;
     padding: 0;
     line-height: 0.5em;
   }
-  #education h2 {
+  #skills h2,
+  #experience h2 {
     page-break-before: always;
   }
   h3 {
@@ -464,12 +484,28 @@ ul li.strong {
     height: auto;
     padding: 10px;
   }
-  #welcome .section-container a.mobile-logo .logo-white-small {
-    margin-top: 0;
+  #welcome .section-container a.mobile-logo img {
+    width: 49px;
+    height: 38px;
+    vertical-align: top;
+    margin: 0 10px 0 10px;
   }
   #welcome .content,
   #welcome .language {
     display: none;
+  }
+  #about .profile-picture {
+    margin-top: 50pt;
+  }
+  #about .intro {
+    margin-top: 50pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+  }
+  #about .iwillbe {
+    margin-top: 50pt;
+    padding-left: 100pt;
+    padding-right: 100pt;
   }
   .span4.content-span,
   .span6.content-span {
@@ -481,6 +517,12 @@ ul li.strong {
   }
   #experience {
     clear: both;
+  }
+  #experience .content-span {
+    width: 100%;
+  }
+  #experience h3 {
+    margin-top: 30pt;
   }
   .link-to {
     display: none;
