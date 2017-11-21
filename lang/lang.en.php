@@ -29,6 +29,7 @@
   $skills_title_back = "Back end";
   $skills_title_devops = "DevOps";
   $skills_title_languages = "Languages";
+  $skills_title_methodologies = "Methodologies";
   $skills_title_other = "Other skills";
 
   $skills_payment_solutions = "Payment solutions: ";
@@ -38,12 +39,12 @@
   $skills_databases = "Databases: ";
   $skills_webservices = "REST Web Services";
   $skills_cryptography = "Cryptography";
-  $skills_agile_methods = "Agile methods ";
   $skills_data_driven_management = "Data-driven management";
   $skills_tools = "Tools: ";
   $skills_english = "English: Fluent - Worked 10 months in the USA - TOEIC: 970/990";
   $skills_french = "French: Mother tongue";
   $skills_spanish = "Spanish: Basic knowledge";
+  $skills_agile_methods = "Agile Methods (Scrum)";
 
   //Education
   $education_title = "Education";
@@ -62,7 +63,7 @@
   $experience_adeo3_description1_2 = "ExpressJS, VueJS, AngularJS";
   $experience_adeo3_description1_3 = "Elastic, Couchbase";
   $experience_adeo3_description1_4 = "Docker, Rancher";
-  $experience_adeo3_description2 = "Part of the team that developed the main solution (an API) and the admin panels. Upgraded the continuous integration system to include the last features of Jenkins (pipelines). Helped administrating the environments.";
+  $experience_adeo3_description2 = "Part of the team that developed the main solution (an API) and the admin panels. Upgraded the continuous integration system to include the last features of Jenkins (pipelines). Helped administrating the environments. Working in Agile";
 
   $experience_ciev_title = "Technical leader and Web Engineer";
   $experience_ciev_period = "August 2015 - March 2016";

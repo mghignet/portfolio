@@ -29,6 +29,7 @@
   $skills_title_back = "Back end";
   $skills_title_devops = "DevOps";
   $skills_title_languages = "Langues";
+  $skills_title_methodologies = "Méthodologies";
   $skills_title_other = "Autres compétences";
 
   $skills_payment_solutions = "Solutions de paiement : ";
@@ -38,12 +39,12 @@
   $skills_databases = "Bases de données : ";
   $skills_webservices = "Web Services REST";
   $skills_cryptography = "Cryptographie";
-  $skills_agile_methods = "Méthodes agiles ";
   $skills_data_driven_management = "Data-driven management";
   $skills_tools = "Outils: ";
   $skills_english = "Anglais: Excellent niveau - 10 mois passés aux USA - TOEIC: 970/990";
   $skills_french = "Français: langue maternelle";
   $skills_spanish = "Espagnol: Niveau correct";
+  $skills_agile_methods = "Méthodes Agiles (Scrum)";
 
   //Education
   $education_title = "Formation";
@@ -62,7 +63,7 @@
   $experience_adeo3_description1_2 = "ExpressJS, VueJS, AngularJS";
   $experience_adeo3_description1_3 = "Elastic, Couchbase";
   $experience_adeo3_description1_4 = "Docker, Rancher";
-  $experience_adeo3_description2 = "Participation au développement de la plateforme principale (une brique d'APIs) et des interfaces d'administration. Mise à jour de l'intégration continue pour prendre en compte les dernières avancées de Jenkins (pipelines). Aide à la gestion des environnements.";
+  $experience_adeo3_description2 = "Participation au développement de la plateforme principale (une brique d'APIs) et des interfaces d'administration. Mise à jour de l'intégration continue pour prendre en compte les dernières avancées de Jenkins (pipelines). Aide à la gestion des environnements. Projet Agile.";
 
   $experience_ciev_title = "Technical leader, ingénieur développement web";
   $experience_ciev_period = "Août 2015 - Mars 2016";
