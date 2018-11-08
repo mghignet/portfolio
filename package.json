@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghignet/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghignet/portfolio/issues"
+  },
+  "homepage": "https://github.com/mghignet/portfolio#readme",
+  "devDependencies": {
+    "ejs-compiled-loader": "1.1.0",
+    "ejs-loader": "0.3.1",
+    "extract-loader": "3.0.0",
+    "file-loader": "2.0.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2"
+  }
+}

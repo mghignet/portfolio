@@ -1,0 +1,21 @@
+Html Webpack Plugin:
+<pre>
+  ReferenceError: .:8
+      6|     <body>
+      7|         <% for(var i=0; i<3; i++) { %>
+   >> 8|             <p><%- text() %></p>
+      9|             <img src="<%= require('./images/background.jpg') %>">
+      10|         <% } %>
+      11|     </body>
+  text is not defined
+  
+  - index.ejs:118 
+    /Users/maximeghignet/Documents/projects/perso/portfolio/src/index.ejs:118:67
+  
+  - index.ejs:122 anonymous
+    /Users/maximeghignet/Documents/projects/perso/portfolio/src/index.ejs:122:15
+  
+  - index.js:284 Promise.resolve.then
+    [portfolio]/[html-webpack-plugin]/index.js:284:18
+  
+</pre>

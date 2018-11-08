@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coucou</title>
+    </head>
+    <body>
+        <% for(var i=0; i<3; i++) { %>
+            <p><%- text() %></p>
+            <img src="<%= require('./images/background.jpg') %>">
+        <% } %>
+    </body>
+</html>
